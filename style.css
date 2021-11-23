@@ -1,0 +1,138 @@
+body {
+    margin:0px;
+    background-image:url(https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+#banner{
+    background-size:cover;
+    background-color:black;
+    text-align: center;
+    padding: 20px 20px;
+    margin:0px;
+    border:0px;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    font-family:'Trebuchet MS';
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+#profile-picture {
+    border-radius: 50%;
+    width:142px;
+}
+
+.card-white{
+    background-color:rgba(255, 255, 255, 0.65);
+    border-radius:30px ;
+    text-align: center;
+    margin: 30px;
+    padding: 10px 20px;
+}
+
+.card-white:hover {
+    background-color:rgba(255, 255, 255, 0.75);
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    line-height: 0.1px
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+h3 {
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 5px;
+    border-radius:30px ;
+    color:rgb(0, 0, 0);
+	font-size: 20px;
+	font-family: 'Trebuchet MS';
+    text-align: center;
+    line-height: 30px;
+}
+
+h4 {
+    background-color: black;
+    margin: 5px;
+    border-radius:30px ;
+    color:rgba(255, 255, 255, 0.9);
+	font-size: 20px;
+	font-family: 'Trebuchet MS';
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-gray{
+    background-color:rgba(0, 0, 0, 0.844);
+    border-radius:30px ;
+    text-align: center;
+    margin: 30px;
+    padding: 10px 20px;
+    color:white;
+}
+
+.card-gray:hover {
+    background-color:rgba(9, 9, 9, 0.844);
+}
+
+.btn-red {
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 17px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    margin-top:4px;
+}
+
+.btn-red:hover {
+    background-color:rgb(80%, 11%, 23%);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.list-inline {
+    margin:1px;
+    padding-left: 0px;}
+
+.list-inline li {
+    display: inline;}
+
+.list-inline i{
+    color:black;
+    font-size:35px;
+    padding: 10px;}
+
+.list-inline i:hover {
+    color:rgb(80%, 11%, 23%);
+   }
